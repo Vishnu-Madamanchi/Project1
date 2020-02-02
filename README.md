@@ -71,4 +71,8 @@ Restart Cloudshell VM
 16. Now stream the log files:
     
          gcloud app logs tail -s default
+         
+17. refer this to Automate App Engine deployments with Cloud Build
+
+         https://cloud.google.com/source-repositories/docs/quickstart-triggering-builds-with-source-repositories
 
