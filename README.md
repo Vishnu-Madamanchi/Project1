@@ -38,12 +38,15 @@ projectNumber: '881692383648'
 
   
 git clone https://github.com/noahgift/gcp-hello-ml.git
-# Update .cloudshellcustomimagerepo.json with project and image name
-# TIP: enable "Boost Mode" in in Cloudshell
-cloudshell env build-local
-cloudshell env push
-cloudshell env update-default-image
-# Restart Cloudshell VM
+Update .cloudshellcustomimagerepo.json with project and image name
+TIP: enable "Boost Mode" in in Cloudshell
+
+        cloudshell env build-local
+        cloudshell env push
+        cloudshell env update-default-image
+
+
+Restart Cloudshell VM
 
 10. create and source the virtual environment:
 
@@ -57,11 +60,9 @@ cloudshell env update-default-image
    
    python main.py
    
-13. 
-# Preview the results using web preview at the right side corner of cloud shell editor using port 8080.
+13. Preview the results using web preview at the right side corner of cloud shell editor using port 8080.
 
-14. 
-# update main.py by adding different approute (optional)
+14.  update main.py by adding different approute (optional)
 
 15. Now deploy the App
     
