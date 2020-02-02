@@ -1,5 +1,4 @@
-# Project1
-Continuous Delivery of Flask Application on GCP 
+# Continuous Delivery of Flask Application on GCP 
 
 1. Create Project
 2. Activate cloud shell
